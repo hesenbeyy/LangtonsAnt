@@ -25,7 +25,7 @@ int main() {
 		}
 		int waiting = 1;
 		if (ant.x == 0) {
-			SDL_Delay(5000);
+			SDL_Delay(3000);
 			running = 0;
 		}
 		move_ant(renderer, ant_ptr, grid, &currentDir);
